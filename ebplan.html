@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+  
+
+<head>
+      <script src="../ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+      <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.min.css" />
+      <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kanit:200,300,300i,400,400i,500,600,700,800,900" rel="stylesheet">
+
+      <script src="../cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
+
+      <title>E Summit B Plan Registration</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="css/bootstrapvalidator.min.css"/>
+      <script src="bootstrapvalidator.min.js"></script>
+      <link rel = "stylesheet" type="text/css" href="css/form.css">
+      <link rel = "stylesheet" href = "css/font-awesome.min.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <style>
+h1{
+  position: absolute;
+  margin-top: -5%;
+  margin-left: 13%;
+}
+  </style>
+
+  <body style="background-image:url(images/community.png)">
+
+  <div class = "container-fluid">
+      
+      <div class = "center" id="response">
+
+            <form id="myForm" class = "ecellSignup" method = "post">
+            <div class = "row center">
+              <div class = "col-xs-12">
+                <h1  style="font-family: 'Kanit';">B PLAN REGISTRATION</h1>
+              </div>
+            </div>
+		<br><br><br><br><br>
+                  <div class = "row">
+                        <div class="col-xs-12">
+                          <div class="form-group">
+                              <label for="name"> TEAM LEADER NAME:</label>
+                              <input type="text" id="name" name="name" placeholder="Your name:" class = "ecellInput" class="form-control" required="required">
+                          </div>
+                        </div>
+                  </div>
+            
+                  <div class = "row">
+                        <div class="col-xs-12">
+                          <div class="form-group">
+                            
+                          
+                              <label for="dob">DATE OF BIRTH</label>
+                              <input type="date" class="form-control" name="dob" id="dob" placeholder="DD/MM/YYYY" class="ecellInput" required="required" />
+                             
+                              
+                          </div>
+                          
+                        </div>
+                  </div>
+            
+                  <div class = "row">
+                        <div class="col-xs-12">
+                              <label for="gender">GENDER:</label>
+                              <div class = "row">
+                                    <div class = "col-xs-4">
+
+                                          <b>Male</b><i class="fa fa-mars" aria-hidden="true"></i>
+                                                <input type="radio" id="male" name="gender" value="male" checked required="required">
+                                    </div>
+                                    <div class = "col-xs-4">
+                                          <b>Female</b><i class="fa fa-venus" aria-hidden="true"></i>
+                                          <input type="radio" id="female" name="gender" value="female" required="required">
+                                    </div>
+                                    <div class = "col-xs-4">
+                                          <b>Other</b><i class="fa fa-transgender-alt" aria-hidden="true"></i>
+                                          <input type="radio" id="other" name="gender" value="other" required="required">
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            
+            
+            
+                  <div class = "row">
+                        <div class="col-xs-12">
+                          <div class="form-group">
+                              <label for="email">EMAIL:</label>
+                              <input type="email" id="email" placeholder="Email" class="form-control" class = "ecellInput" name = "email" required="required">
+                          </div>
+                        </div>
+                  </div>
+            
+                  <div class = "row">
+                        <div class="col-xs-12">
+                              <label for="phoneNum">Phone number:</label>
+                              <input type="text" id="phoneNum" name="phoneNum"  class = "ecellInput" required="required">
+                        </div>
+                  </div>
+                
+                <hr>
+                
+                <div class = "row">
+                        <div class="col-xs-12">
+                          <div class="form-group">
+                              <label for="member1">MEMBER 1</label>
+                              <input type="text" id="name" placeholder="name" class="form-control" class = "ecellInput" name = "name" required="required">
+                              <div class="col-xs-12">
+                              <label for="phoneNum">Phone number:</label>
+                              <input type="text" id="phoneNum" name="phoneNum"  class = "ecellInput" required="required">
+                              <label for="email">EMAIL:</label>
+                              <input type="email" id="email" placeholder="Email" class="form-control" class = "ecellInput" name = "email" required="required">
+                        </div>
+                          </div>
+                        </div>
+                  </div>
+                
+                <hr>
+                
+                 <div class = "row">
+                        <div class="col-xs-12">
+                          <div class="form-group">
+                              <label for="member1">MEMBER 2</label>
+                              <input type="text" id="name" placeholder="name" class="form-control" class = "ecellInput" name = "name" required="required">
+                              <div class="col-xs-12">
+                              <label for="phoneNum">Phone number:</label>
+                              <input type="text" id="phoneNum" name="phoneNum"  class = "ecellInput" required="required">
+                              <label for="email">EMAIL:</label>
+                              <input type="email" id="email" placeholder="Email" class="form-control" class = "ecellInput" name = "email" required="required">
+                        </div>
+                          </div>
+                        </div>
+                  </div>
+                
+                <hr>
+                
+                 <div class = "row">
+                        <div class="col-xs-12">
+                          <div class="form-group">
+                              <label for="member1">MEMBER 3</label>
+                              <input type="text" id="name" placeholder="name" class="form-control" class = "ecellInput" name = "name" required="required">
+                              <div class="col-xs-12">
+                              <label for="phoneNum">Phone number:</label>
+                              <input type="text" id="phoneNum" name="phoneNum"  class = "ecellInput" required="required">
+                              <label for="email">EMAIL:</label>
+                              <input type="email" id="email" placeholder="Email" class="form-control" class = "ecellInput" name = "email" required="required">
+                        </div>
+                          </div>
+                        </div>
+                  </div>
+                
+                
+                <hr>
+                
+            
+                
+            
+                 
+                  <input type="submit" value="Register" class = "btn btn-block submitBtn" id="submit">
+      </form>
+      </div>
+  </div>
+  <script>
+        
+
+
+            $('#myForm').bootstrapValidator({
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            name: {
+                validators: {
+                    notEmpty: {
+                        message: 'The  name is required and cannot be empty'
+                    }
+                }
+            },
+            
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'The email address is required'
+                    },
+                    emailAddress: {
+                        message: 'The input is not a valid email address'
+                    }
+                }
+            },
+            gender: {
+                validators: {
+                    notEmpty: {
+                        message: 'The gender is required'
+                    }
+                }
+            },
+
+            rollNum:{
+              validators:{
+                notEmpty:{
+                  message:'The roll number is required'
+                }
+              }
+            },
+            dob:{
+              validators:{
+                date:{
+                  format:"DD/MM/YYYY",
+                  message:"The value is not a valid date"
+                }
+              }
+            },
+           q1:{
+                validators: {
+                    between: {
+                        min: 0,
+                        max: 100,
+                        message: 'The value must be between 1 and 10'
+                    }
+                }
+            },
+            q2:{
+                validators: {
+                    between: {
+                        min: 0,
+                        max: 100,
+                        message: 'The value must be between 1 and 10'
+                    }
+                }
+            },
+            q3:{
+                validators: {
+                    between: {
+                        min: 0,
+                        max: 100,
+                        message: 'The value must be between 1 and 10'
+                    }
+                }
+            },
+            q4:{
+                validators: {
+                    between: {
+                        min: 0,
+                        max: 100,
+                        message: 'The value must be between 1 and 10'
+                    }
+                }
+            },
+            q5:{
+                validators: {
+                    between: {
+                        min: 0,
+                        max: 100,
+                        message: 'The value must be between 1 and 10'
+                    }
+                }
+            },
+            q6:{
+                validators: {
+                    between: {
+                        min: 0,
+                        max: 100,
+                        message: 'The value must be between 1 and 10'
+                    }
+                }
+            },
+            q7:{
+                validators: {
+                    between: {
+                        min: 0,
+                        max: 100,
+                        message: 'The value must be between 1 and 10'
+                    }
+                }
+            },
+        },
+        submitHandler: function(validator, form, submitButton) {
+          var data = $('form').serializeArray();
+          console.log(data);
+            
+            $.ajax({
+              type: "POST",
+              url: "register.php",
+              data: {name: data[0].value,dob:data[1].value,gender:data[2].value,rollNum:data[3].value,email:data[4].value,phoneNum:data[5].value,dept:data[6].value,q1:data[7].value/10,q2:data[8].value/10,q3:data[9].value/10,q4:data[10].value/10,q5:data[11].value/10,q6:data[12].value/10,q7:data[13].value/10},
+              success: function(data){
+                    console.log(data);
+                    $("#myForm").html(data);
+              },
+              fail: function(data){
+                console.log(data);
+                alert("Error in registering for community");
+              }
+            });
+
+        }
+    });
+           
+        
+            
+      function change(buttonControl) {
+            var arr = buttonControl.name;
+            var id = "p_q" + arr.substr(1, 4);
+            document.getElementById(id).innerHTML = buttonControl.value/10;
+      }
+  </script>
+  </body>
+  
+
+</html>
